@@ -4,7 +4,7 @@ Selected source files from [Stobio](https://stobio.com), a server-side conversio
 
 The main codebase is private. These files are copied from it as they run in production, so they reference internal types and **do not build on their own**. The code is unchanged. Comments and log messages were in Turkish and are translated to English here, with internal ticket numbers removed.
 
-I write and review this code myself and use AI coding assistants (Claude, Cursor) as part of my normal workflow.
+I designed the architecture and directed the implementation. For the past year the code has been written with AI coding tools (mostly Claude) under my design and review.
 
 Stack: C# / .NET, PostgreSQL, multi-tenant SaaS.
 
